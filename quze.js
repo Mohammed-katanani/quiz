@@ -22,13 +22,14 @@ let qusNum=document.querySelector(".qusNum");
 let startContiner=document.querySelector(".startContiner");
 let continer=document.querySelector(".continer");
 let start=document.querySelector(".start");
-
+let footer=document.querySelector('footer')
 let cunter=0;
 let y;
 let mark =0;
 //start quze
 start.addEventListener("click",()=>{
     startContiner.style.display="none"
+    footer.style.display="block"
     continer.style.display="flex"
 
     addQustion()
